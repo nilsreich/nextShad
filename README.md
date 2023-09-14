@@ -1,19 +1,34 @@
-# A Create React App template on Gitpod
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This is a [Create React App](https://create-react-app.dev/) template configured for ephemeral cloud development environments on [Gitpod](https://www.gitpod.io/).
+## Getting Started
 
-## Next Steps
+First, run the development server:
 
-Click the button below to start a new development environment:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-typescript-react)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Get Started With Your Own Project
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### A new project
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Click the above "Open in Gitpod" button to start a new workspace. Once you're ready to push your first code changes, Gitpod will guide you to fork this project so you own it.
+## Learn More
 
-### An existing project
+To learn more about Next.js, take a look at the following resources:
 
-To get started with Create React App on Gitpod, add a [`.gitpod.yml`](./.gitpod.yml) file which contains the configuration to improve the developer experience on Gitpod. To learn more, please see the [Getting Started](https://www.gitpod.io/docs/getting-started) documentation.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

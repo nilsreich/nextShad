@@ -1,0 +1,15 @@
+tasks:
+  - name: Install dependencies 
+    init: |
+      pnpm install
+
+  - name: Run dev server
+    command: pnpm run dev
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+
+ports:
+  - port: 3000
+    onOpen: open-preview
